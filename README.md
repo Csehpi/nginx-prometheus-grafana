@@ -1,2 +1,2 @@
 # nginx-prometheus-grafana
-Nginx, prometheus, grafana and python application
+This is a demo how to connect Nginx, Prometheus, Grafana and Python application

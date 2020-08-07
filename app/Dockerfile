@@ -11,4 +11,3 @@ RUN pip install requests
 EXPOSE 5000
 
 CMD python ./app.py
-
