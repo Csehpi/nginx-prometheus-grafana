@@ -9,7 +9,7 @@ datasources:
     type: 'prometheus'
     access: 'browser'
     orgId: 1
-    url: 'http://0.0.0.0:9090'
+    url: 'http://172.19.0.1:80/prometheus/'
     isDefault: true
     version: 1
     editable: false
