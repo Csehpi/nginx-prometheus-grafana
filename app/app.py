@@ -15,10 +15,10 @@ temp_change = Gauge(
     'temperature_change',
     'Temperature change with Gauge')
 
-# Budapest
+# Budapest coordinates
 lat = "47.498"
 lon = "19.0399"
-api_key = "6c0d5d6a24a282ef0bf337bc100df5c8"
+api_key = "<Openweather API key>"
 
 
 @app.route('/metrics', methods=['GET'])
@@ -41,4 +41,4 @@ def get_weather_data():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='172.19.0.1')
+    app.run(debug=True, host='<host IP address>')

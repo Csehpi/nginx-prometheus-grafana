@@ -5,8 +5,8 @@ scrape_configs:
   - job_name: 'prometheus'
     metrics_path: /prometheus/metrics/
     static_configs:
-    - targets: ['172.19.0.1:80']
+    - targets: ['<host IP address>:80']
   - job_name: 'openweather'
     metrics_path: /metrics/
     static_configs:
-    - targets: ['172.19.0.1:80']
+    - targets: ['<host IP address>:80']
